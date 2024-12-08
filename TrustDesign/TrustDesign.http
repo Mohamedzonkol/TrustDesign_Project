@@ -1,6 +1,0 @@
-@TrustDesign_HostAddress = http://localhost:5194
-
-GET {{TrustDesign_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
