@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Query;
+using TrustDesign_Core.Interfaces.Wrappers.Parametars;
 
 namespace TrustDesign_Core.Interfaces.Reporesitories
 {
@@ -7,8 +8,8 @@ namespace TrustDesign_Core.Interfaces.Reporesitories
         Task<List<T>> GetAll();
         Task<T> GetById(Guid id);
         Task<T> Add(T entity);
-        Task<T> Update(T entity);
-        Task<T> Delete(int id);
+        Task<T> Update(Guid id, T entity);
+        Task<T> Delete(Guid id);
         Task<IQueryable<T>> GetPagedAsync(PagedRequest request, params Func<IQueryable<T>, IIncludableQueryable<T, object>>[] includeprop);
     }
 }
