@@ -11,4 +11,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TrustDesgin_Persistence\TrustDesgin_Persistence.csproj" />
+      <ProjectReference Include="..\TrustDesign_Infra\TrustDesign_Infra.csproj" />
+    </ItemGroup>
+
 </Project>
