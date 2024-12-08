@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrustDesgin_Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c6de34ac730fff85525d863bded80317d122938")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad8f0751e3885b1c90f7b484c773e52b5ae1ca6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrustDesgin_Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrustDesgin_Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
