@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F4A4B-FFA9-4555-B8A1-F8944A1616C9}|TrustDesign\\TrustDesign.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesign\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A4F4A4B-FFA9-4555-B8A1-F8944A1616C9}|TrustDesign\\TrustDesign.csproj|solutionrelative:trustdesign\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F4A4B-FFA9-4555-B8A1-F8944A1616C9}|TrustDesign\\TrustDesign.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F4A4B-FFA9-4555-B8A1-F8944A1616C9}|TrustDesign\\TrustDesign.csproj|solutionrelative:trustdesign\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesgin_persistence\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|solutionrelative:trustdesgin_persistence\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesgin_persistence\\migrations\\20241208150919_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|solutionrelative:trustdesgin_persistence\\migrations\\20241208150919_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesgin_persistence\\trustdesgin_persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|solutionrelative:trustdesgin_persistence\\trustdesgin_persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesgin_persistence\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|solutionrelative:trustdesgin_persistence\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|c:\\users\\lenovo\\trustdesign_project\\trustdesgin_persistence\\migrations\\20241208150919_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD7A3E30-8B0B-400B-BF8F-A061CC232000}|TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj|solutionrelative:trustdesgin_persistence\\migrations\\20241208150919_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TrustDesgin_Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TrustDesgin_Persistence\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:10:35.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241208150919_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\20241208150919_initial.cs",
+              "RelativeDocumentMoniker": "TrustDesgin_Persistence\\Migrations\\20241208150919_initial.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\20241208150919_initial.cs",
+              "RelativeToolTip": "TrustDesgin_Persistence\\Migrations\\20241208150919_initial.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:09:19.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\appsettings.json",
+              "RelativeDocumentMoniker": "TrustDesign\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\appsettings.json",
+              "RelativeToolTip": "TrustDesign\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T15:06:20.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\Program.cs",
+              "RelativeDocumentMoniker": "TrustDesign\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\Program.cs",
+              "RelativeToolTip": "TrustDesign\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:55:42.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241208150919_initial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\20241208150919_initial.Designer.cs",
+              "RelativeDocumentMoniker": "TrustDesgin_Persistence\\Migrations\\20241208150919_initial.Designer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\Migrations\\20241208150919_initial.Designer.cs",
+              "RelativeToolTip": "TrustDesgin_Persistence\\Migrations\\20241208150919_initial.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAvwFUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:10:29.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrustDesgin_Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
+              "RelativeDocumentMoniker": "TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
+              "RelativeToolTip": "TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T15:04:33.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\DbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrustDesgin_Persistence\\DbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\DbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrustDesgin_Persistence\\DbContext\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:03:34.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

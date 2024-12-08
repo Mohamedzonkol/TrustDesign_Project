@@ -1,0 +1,13 @@
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\bin\Debug\net8.0\TrustDesgin_Domain.deps.json
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\bin\Debug\net8.0\TrustDesgin_Domain.dll
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\bin\Debug\net8.0\TrustDesgin_Domain.pdb
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.csproj.AssemblyReference.cache
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.AssemblyInfo.cs
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.sourcelink.json
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.dll
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\refint\TrustDesgin_Domain.dll
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\TrustDesgin_Domain.pdb
+C:\Users\Lenovo\TrustDesign_Project\TrustDesgin_Domain\obj\Debug\net8.0\ref\TrustDesgin_Domain.dll
