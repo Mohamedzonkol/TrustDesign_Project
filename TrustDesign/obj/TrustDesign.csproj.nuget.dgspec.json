@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj": {}
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj": {}
   },
   "projects": {
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj",
         "projectName": "TrustDesgin_Domain",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj",
-        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,41 +71,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj": {
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
         "projectName": "TrustDesgin_Persistence",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj",
-        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj"
               },
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj"
               },
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj"
               }
             }
           }
@@ -119,19 +131,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -156,38 +164,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj": {
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj",
         "projectName": "TrustDesign",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
-        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj"
               },
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj"
               }
             }
           }
@@ -245,35 +259,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj",
         "projectName": "TrustDesign_Core",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj",
-        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Domain\\TrustDesgin_Domain.csproj"
               }
             }
           }
@@ -308,35 +328,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
+    "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj",
         "projectName": "TrustDesign_Infra",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj",
-        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/obj/",
+        "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
-                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj"
+              "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Core\\TrustDesign_Core.csproj"
               }
             }
           }
@@ -371,7 +397,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

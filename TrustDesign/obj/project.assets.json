@@ -1688,8 +1688,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "TrustDesgin_Domain": "1.0.0",
           "TrustDesign_Core": "1.0.0",
           "TrustDesign_Infra": "1.0.0"
@@ -4667,36 +4666,43 @@
     ]
   },
   "packageFolders": {
-    "/home/mohamed-zonkol/.nuget/packages/": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj",
       "projectName": "TrustDesign",
-      "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
-      "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-      "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/obj/",
+      "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\TrustDesign.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj": {
-              "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj"
+            "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesgin_Persistence\\TrustDesgin_Persistence.csproj"
             },
-            "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
-              "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj"
+            "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\TrustDesign_Project\\TrustDesign_Infra\\TrustDesign_Infra.csproj"
             }
           }
         }
@@ -4754,19 +4760,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 9.0.0 to 8.0.11. Reference the package directly from the project to select a different version. \n TrustDesign -> TrustDesgin_Persistence -> Microsoft.EntityFrameworkCore.SqlServer (>= 9.0.0) \n TrustDesign -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.11)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
