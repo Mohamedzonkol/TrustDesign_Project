@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrustDesgin_Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7a1d6c116143101edd6208343433ec7756e1c9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8e0c354901202bc6ca67fde3422e5d7d97e4995")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrustDesgin_Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrustDesgin_Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
