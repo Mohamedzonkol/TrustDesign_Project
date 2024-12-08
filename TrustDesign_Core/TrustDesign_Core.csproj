@@ -10,8 +10,4 @@
       <ProjectReference Include="..\TrustDesgin_Domain\TrustDesgin_Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Interfaces\Wrappers\Response\" />
-    </ItemGroup>
-
 </Project>
