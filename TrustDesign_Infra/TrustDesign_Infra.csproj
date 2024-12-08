@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TrustDesign_Core\TrustDesign_Core.csproj" />
+    </ItemGroup>
+
 </Project>

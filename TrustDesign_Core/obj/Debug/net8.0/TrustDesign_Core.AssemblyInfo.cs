@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrustDesign_Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+164b333ec6781d2e9e293ec58769f169b4633c56")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrustDesign_Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrustDesign_Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,14 +4,14 @@
     "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj": {}
   },
   "projects": {
-    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj": {
+    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
-        "projectName": "TrustDesign",
-        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
+        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj",
+        "projectName": "TrustDesgin_Domain",
+        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj",
         "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
-        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/obj/",
+        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -44,9 +44,182 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj",
+        "projectName": "TrustDesgin_Persistence",
+        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj",
+        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
+        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj"
+              },
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj"
+              },
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
+        "projectName": "TrustDesign",
+        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/TrustDesign.csproj",
+        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
+        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Persistence/TrustDesgin_Persistence.csproj"
+              },
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -68,6 +241,132 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj",
+        "projectName": "TrustDesign_Core",
+        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj",
+        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
+        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesgin_Domain/TrustDesgin_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/mohamed-zonkol/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj",
+        "projectName": "TrustDesign_Infra",
+        "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/TrustDesign_Infra.csproj",
+        "packagesPath": "/home/mohamed-zonkol/.nuget/packages/",
+        "outputPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Infra/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/mohamed-zonkol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj": {
+                "projectPath": "/home/mohamed-zonkol/Desktop/TrustDesign/TrustDesign_Core/TrustDesign_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TrustDesgin_Domain\TrustDesgin_Domain.csproj" />
+    </ItemGroup>
+
 </Project>
