@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
 using TrustDesgin_Persistence.DbContext;
+using TrustDesgin_Persistence.Extensions;
 using TrustDesign_Core.Interfaces.Reporesitories;
 using TrustDesign_Core.Interfaces.Wrappers.Parametars;
 
@@ -64,19 +65,37 @@ namespace TrustDesgin_Persistence.Reporsitoriers
 
         }
 
-        public Task<IQueryable<T>> GetPagedAsync(PagedRequest request, params Func<IQueryable<T>, IIncludableQueryable<T, object>>[] includeprop)
+        public async Task<IQueryable<T>> GetPagedAsync(PagedRequest request, params Func<IQueryable<T>, IIncludableQueryable<T, object>>[] includeprop)
         {
             if (request.IsSearch)
             {
+                if (includeprop is not null)
+                {
+                    foreach (var prop in includeprop)
+                    {
+                        _query = prop(_query);
+                    }
+                }
                 if (request.Fillters.GroubBy == "AND")
                 {
                     foreach (var rule in request.Fillters.Rules)
                     {
-
+                        _query = _query.WhereOperator<T>(rule.Field, rule.Data, rule.Operator);
                     }
+                }
+                else
+                {
+                    var temp = (new List<T>()).AsQueryable();
+                    foreach (var rule in request.Fillters.Rules)
+                    {
+                        temp = temp.Concat<T>(_query.WhereOperator<T>(rule.Field, rule.Data, rule.Operator));
+                    }
+
+                    _query = _query.Distinct<T>();
                 }
             }
 
+            return _query;
         }
     }
 }

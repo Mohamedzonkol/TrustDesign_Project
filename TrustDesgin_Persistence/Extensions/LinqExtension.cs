@@ -4,7 +4,7 @@ namespace TrustDesgin_Persistence.Extensions
 {
     public static class LinqExtension
     {
-        public static IQueryable<T> Where<T>(this IQueryable<T> query, string column, object value, int whereOperator)
+        public static IQueryable<T> WhereOperator<T>(this IQueryable<T> query, string column, object value, int whereOperator)
         {
             if (string.IsNullOrEmpty(column))
             {

@@ -15,7 +15,7 @@
     public class PageRule
     {
         public string Field { get; set; }
-        public string Operator { get; set; }
+        public int Operator { get; set; }
         public string Data { get; set; }
     }
     public enum WhereOperator
