@@ -1,6 +1,8 @@
-﻿namespace TrustDesign_Core.Interfaces.Reporesitories
+﻿using TrustDesgin_Domain.Entites;
+
+namespace TrustDesign_Core.Interfaces.Reporesitories
 {
-    internal class IUserReporostory
+    public interface IUserReporostory : IReporostory<User>
     {
     }
 }
