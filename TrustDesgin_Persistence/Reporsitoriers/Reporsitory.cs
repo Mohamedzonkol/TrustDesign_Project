@@ -66,7 +66,17 @@ namespace TrustDesgin_Persistence.Reporsitoriers
 
         public Task<IQueryable<T>> GetPagedAsync(PagedRequest request, params Func<IQueryable<T>, IIncludableQueryable<T, object>>[] includeprop)
         {
-            throw new NotImplementedException();
+            if (request.IsSearch)
+            {
+                if (request.Fillters.GroubBy == "AND")
+                {
+                    foreach (var rule in request.Fillters.Rules)
+                    {
+
+                    }
+                }
+            }
+
         }
     }
 }

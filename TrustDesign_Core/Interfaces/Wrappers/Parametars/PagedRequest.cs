@@ -5,8 +5,9 @@
         public bool IsSearch { get; set; } = false;
         public int PageIndex { get; set; } = 1;
         public int PageSize { get; set; } = 10;
+        public PageFilter Fillters { get; set; }
     }
-    internal class PageFilter
+    public class PageFilter
     {
         public string GroubBy { get; set; }
         public PageRule[] Rules { get; set; }
@@ -19,15 +20,15 @@
     }
     public enum WhereOperator
     {
-        Equal,
-        NotEqual,
+        Equal = 1,
+        NotEqual = 2,
         LessThan,
         LessThanOrEqual,
         GreaterThan,
         GreaterThanOrEqual,
-        StartsWith,
+        StartsWith = 4,
         EndsWith,
-        Contains,
+        Contains = 3,
         NotContains
     }
 }
