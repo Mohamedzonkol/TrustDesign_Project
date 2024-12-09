@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using TrustDesign_Core.Interfaces.Services;
+using TrustDesign_Core.Interfaces.Wrappers.Response;
 using TrustDesign_Core.Services;
 
 namespace TrustDesign_Core
@@ -11,6 +12,7 @@ namespace TrustDesign_Core
     {
         public static void AddApplicationServices(this IServiceCollection services, IConfiguration configuration = null)
         {
+            services.AddScoped(typeof(BaseResponseModel));
             services.AddScoped<IUserServices, UserService>();
             var key = configuration.GetValue<string>("JWT:SecretKey");
             services.AddAuthentication(x =>
