@@ -4,5 +4,6 @@ namespace TrustDesign_Core.Interfaces.Reporesitories
 {
     public interface IUserReporostory : IReporostory<User>
     {
+
     }
 }

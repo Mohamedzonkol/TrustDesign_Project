@@ -8,6 +8,7 @@ namespace TrustDesgin_Persistence.Reporsitoriers
     {
         public UserReporostory(ApplicationDbContext context) : base(context)
         {
+
         }
     }
 }
